@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  	body {
+  background-image: url(login.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+  </style>
+</head>
+<body>
+
+<div class="container">
+	<div class="row" style="margin-top: 150px;">
+		<div class="col-md-4"></div>
+		<div class="col-md-4" style="border-radius: 10px;background-color: rgba(0,0,0,.3);box-shadow:  0 0 10px rgba(255,255,255,.3);">
+			<form action="signin.php" method="POST" class="form-group" >
+				<h3 style="text-align: center;margin-top: 50px;font-weight: bold;">Sign in</h3>
+			<label style="margin-top: 10px">Roll Number</label>
+			<input type="text" class="form-control" id="email" placeholder="Enter Roll number" name="rollno">
+			<label style="margin-top: 10px">Password</label>
+			<input type="Password" class="form-control" id="pwd" placeholder="Enter Password" name="pwd"><br>
+			<p>Don't have an account: 
+			<a href="index.html"><b>Register here</b></a></p>
+			<button type="submit" name='signin' class="btn btn-primary" style="margin-top: 10px;width: 100%">Sign in</button>
+		</form>
+		</div>
+		<div class="col-md-4">
+		
+	</div>
+	
+</div>
+
+</body>
+</html>
+
+

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  	body {
+  background-image: url('signup.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="row" style="margin-top: 50px;">
+  	<div class="col-md-4"></div>
+  	<div class="col-md-4" style="border-radius: 10px; background-color: rgba(0,0,0,.3);box-shadow:  0 0 10px rgba(255,255,255,.3);">
+  		<form action="signup.php" method="POST" class="form-group" >
+  		<h3 style="text-align: center;margin-top: 10px;font-weight: bold;">Sign up</h3>
+  		<label style="margin-top: 10px">Name</label>
+  		<input type="text" class="form-control" id="name" placeholder="Enter Name" name="Name">
+  		<label style="margin-top: 10px">Email</label>
+  		<input type="email" class="form-control" id="email" placeholder="Enter Email" name="Email">
+  		<label style="margin-top: 10px">Roll Number</label>
+  		<input type="text" class="form-control" id="rollno" placeholder="Enter Roll Number" name="rollno">
+  		<label style="margin-top: 10px">Password</label>
+  		<input type="Password" class="form-control" id="pwd" placeholder="Type Password" name="pwd">
+  		<label style="margin-top: 10px">Gender</label>
+  		<input type="radio" class="class-custom" name="Gender" value= "Male" style="margin-left: 10px">Male
+  		<input type="radio" name="Gender" value="Female" style="margin-left: 10px;">Female
+  		<br>
+  		<label style="margin-top: 10px">College</label>
+  		<select class="form-control" name="college">
+  			<option>select</option>
+  			<option>AEC</option>
+  			<option>ACET</option>
+  			<option>ACOE</option>
+  		</select>
+  		<br>
+  		<label style="margin-top: 10px">Branch</label>
+  		<select class="form-control" name="branch">
+  			<option>select</option>
+  			<option>CSE</option>
+  			<option>ECE</option>
+  			<option>EEE</option>
+  			<option>MECH</option>
+  			<option>CIVIL</option>
+  		</select>
+  		<br>
+  		<p>Already have an account
+  		<a href="signin.html"><b>Signin here</b></a></p>
+  		<label style="margin-top: 10px;"></label>
+  		<button type="submit" name="submit" class="btn btn-primary" style="margin-top: 10px;width: 100% ">Sign Up</button>
+
+
+  	</form>
+  	</div>
+  </div>
+</div>
+
+</body>
+</html>
